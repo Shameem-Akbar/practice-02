@@ -122,13 +122,24 @@ hr {
 
 .website img {
     height: 100%;
-    width: 100%
+    width: 100%;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+.website img:hover {
+    width: 130%;
+    height: 130%;
 }
 
 /* popular Collection styles */
 
 .popular {
     margin: 100px 195px 0 195px
+}
+
+.popular-title {
+    margin-bottom: 30px;
 }
 
 .popular-title h2 {
@@ -140,12 +151,17 @@ hr {
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
 }
 
 .collection {
     padding: 17px;
-    border: 3px solid red;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 .col-h3 {
     color: #18191F;
     font-weight: 700;
@@ -185,5 +201,68 @@ hr {
     font-size: 14px;
 }
 
+.see-more {
+    margin: 50px 0 100px 0px;
+    text-align: end;
+    color: #E02C6D;
+
+}
+
+.see-more-title {
+    margin-right: 4px;
+    color: #E02C6D;
+}
+
+/* Featured Styles */
+
+.featured {
+    margin: 0px 165px 100px 165px;
+    display: flex;
+    gap: 96px;
+}
+
+.featured-h2 {
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.featured-para {
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 200px 16px 0;
+}
+
+.featured-btn {
+    background: #E02C6D;
+    padding: 10px 24px;
+    width: 155px;
+    height: 44px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(118, 7, 62);
+    transition: ease-out .4s;
+}
+
+.featured-btn:hover {
+    box-shadow: inset 196px 0 0 0 rgb(118, 7, 62);
+    font-size: 17px;
+}
+
+/* footer styles */
 
 
+
+
+
+
+
+
+
+.featured-btn span {
+    margin-right: 5px;
+}

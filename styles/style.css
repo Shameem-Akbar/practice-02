@@ -124,3 +124,66 @@ hr {
     height: 100%;
     width: 100%
 }
+
+/* popular Collection styles */
+
+.popular {
+    margin: 100px 195px 0 195px
+}
+
+.popular-title h2 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection {
+    padding: 17px;
+    border: 3px solid red;
+}
+.col-h3 {
+    color: #18191F;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.col-price {
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.col-rating {
+    display: flex;
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.col-rating i {
+    padding: 3px;
+}
+
+.col-rating .fa-sharp {
+    color: #FB8200;
+    ;
+}
+
+.col-rating span {
+    margin-left: 10px;
+}
+
+.col-shipping {
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
